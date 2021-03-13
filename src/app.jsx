@@ -1,8 +1,12 @@
-import './app.css';
+import styles from './app.module.css';
+import Header from './components/header/header';
+import './reset.css';
 
 function App() {
   return (
-    <h1>Hello :)</h1>
+    <>
+    <Header></Header>
+    </>
   );
 }
 
