@@ -1,0 +1,60 @@
+.info {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  transform: translate(0, -50%);
+  padding: 0 55px;
+}
+
+.title {
+  color: #fff;
+  font-size: 56px;
+  line-height: 1.2em;
+  letter-spacing: 1.2px;
+  text-shadow: 0 2px 12px rgb(0 0 0 / 42%);
+  margin-bottom: 22px;
+}
+
+.sns {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.6em;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.sns:hover {
+  background-color: #fff;
+  color: red;
+}
+
+.move {
+  position: absolute;
+  bottom: 15%;
+  left: 0;
+  padding: 0 55px;
+}
+
+.btn {
+  width: 45px;
+  height: 45px;
+  margin-right: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.tab {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #f36f21;
+}

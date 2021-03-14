@@ -72,5 +72,23 @@
       "title" : "공지사항",
       "link" : ""
     }
+  ],
+
+  "sns" : [
+    {
+      "title" : "facebook",
+      "link" : "https://www.facebook.com/mierogirl",
+      "icon" : "fab fa-facebook-f"
+    },
+    {
+      "title" : "instagram",
+      "link" : "https://www.instagram.com/mierogirl",
+      "icon" : "fab fa-instagram"
+    },
+    {
+      "title" : "youtube",
+      "link" : "https://www.youtube.com/channel/UCXCNd_4NZADLdsWq46_dm-g/featured",
+      "icon" : "fab fa-youtube"
+    }
   ]
 }
