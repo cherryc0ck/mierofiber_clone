@@ -9,23 +9,6 @@ const Header = (props) => {
 
   const headerRef = useRef();
 
-  useEffect(()=> {
-    slide();
-  });
-
-  const slide = () => {
-    setInterval(()=> {
-      headerRef.current.style.background = 'url("http://www.miero.co.kr/img/main/banner2.jpg")';
-      headerRef.current.style.animationName = 'dd';
-      headerRef.current.style.animationIterationCount = '3';
-      headerRef.current.style.animationFillMode = 'both';
-      headerRef.current.style.animationDelay = '1s';
-      console.log(headerRef.current.style.animation);
-    }, 3000)
-  };
-
-
-
   return (
     <header className={styles.header} ref={headerRef}>
       <nav className={styles.navbar}>
